@@ -1,5 +1,5 @@
 let animales = (() => {
-  const url = 'http://127.0.0.1:5501/animales.json';
+  const url = '/animales.json';
   try {
     const getData = async () => { // Función asíncrona
         const res = await fetch(url)
